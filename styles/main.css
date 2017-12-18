@@ -391,6 +391,40 @@ body{
     display: none;
 }
 
+.cmain_techs__sidemenu{
+    padding-top: 26px;
+    padding-left: 52px;
+}
+
+.cmain_techs__sm_title {
+    height: 14px;
+    color: #7F8FA4;
+    font-family: "ProximaNovaRegular";
+    font-size: 12px;
+    line-height: 14px;
+
+    padding-left: 13px;
+}
+
+.cmain_techs__sidemenu__item {
+    font-family: "ProximaNovaSemibold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #354052;
+    margin-top: 12px;
+    cursor: pointer;
+
+    padding-left: 13px;
+}
+
+.cmain_techs__sidemenu__item-active{
+    background-color: #3A4399;
+    color: #fff;
+    border-radius: 4px;
+    width: 205px;
+}
+
 @media (max-width: 1300px) {
 
 }

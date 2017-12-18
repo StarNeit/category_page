@@ -58,8 +58,15 @@ $(document).ready(function(){
     $(".categories__content__menu__item").on("click", function(){
         $(".categories__content__menu__item").removeClass("categories__content__menu__item-active");
         $(this).addClass("categories__content__menu__item-active");
+
+        $(".categories__content__main__techs").toggle();
+        $(".categories__content__main__news").toggle();
     });
 
+    $(".cmain_techs__sidemenu__item").on("click", function () {
+        $(".cmain_techs__sidemenu__item").removeClass("cmain_techs__sidemenu__item-active");
+        $(this).addClass("cmain_techs__sidemenu__item-active");
+    });
 
 });
 
