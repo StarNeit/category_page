@@ -393,7 +393,14 @@ body{
 
 .cmain_techs__sidemenu{
     padding-top: 26px;
-    padding-left: 52px;
+    padding-left: 47px;
+    padding-right: 19px;
+    display: inline-block;
+}
+
+.cmain_techs__content{
+    flex: 1;
+    padding: 19px;
 }
 
 .cmain_techs__sm_title {
@@ -423,6 +430,54 @@ body{
     color: #fff;
     border-radius: 4px;
     width: 205px;
+}
+
+.cmain_techs__intro{
+    width: 100%;
+    background-color: #F5F8FA;
+    border-radius: 4px;
+
+    padding: 12px 35px;
+}
+
+.cmain_techs__intro__md_title {
+    height: 29px;
+    max-width: 135px;
+    width: 100%;
+    color: #354052;
+    font-family: "ProximaNovaRegular";
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.cmain_techs__intro__circlenum {
+    width: 129px;
+    height: 129px;
+    background: url("../images/img_circle.svg");
+    background-size: 100% 100%;
+
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #354052;
+    font-family: "ProximaNovaRegular";
+    font-size: 24px;
+    line-height: 29px;
+
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 31px;
+}
+
+.cmain_techs__intro__circlenum span {
+    display: block;
+    color: #414042;
+    font-family: "ProximaNovaRegular";
+    font-size: 9.6px;
+    line-height: 12px;
+    text-align: center;
 }
 
 @media (max-width: 1300px) {
