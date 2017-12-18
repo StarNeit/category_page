@@ -1,0 +1,262 @@
+body{
+    background: #fff;
+    position: relative;
+}
+
+.center_vertical{
+    display:flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.bottom_vertical{
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+}
+
+.center_horizontal{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.right_horizontal{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.text_align_right{
+    text-align: right;
+}
+
+.text_align_left{
+    text-align: left;
+}
+
+.flex{
+    display: flex;
+    display: -webkit-flex;
+}
+
+/* Social Buttons */
+.btn_socials{
+    margin-top: 7px;
+    text-align: right;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6E7E8;
+}
+
+.btn_socials span{
+    margin-right: 3px;
+}
+
+.btn_socials span:hover{
+    cursor: pointer;
+}
+
+.btn_linkedin{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -89px -27px;
+    display: inline-block;
+}
+
+.btn_linkedin:hover, .btn_linkedin:focus{
+    background-position: -89px 1px;
+    cursor: pointer;
+}
+
+.btn_twitter{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -59px -27px;
+    display: inline-block;
+}
+
+.btn_twitter:hover, .btn_twitter:focus{
+    background-position: -59px 1px;
+    cursor: pointer;
+}
+
+.btn_fb{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -29px -27px;
+    display: inline-block;
+}
+
+.btn_fb:hover, .btn_fb:focus{
+    background-position: -29px 1px;
+    cursor: pointer;
+}
+
+.btn_yt{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -149px -27px;
+    display: inline-block;
+}
+
+.btn_yt:hover, .btn_yt:focus{
+    background-position: -149px 1px;
+    cursor: pointer;
+}
+
+.btn_email{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -119px -27px;
+    display: inline-block;
+}
+
+.btn_email:hover, .btn_email:focus{
+    background-position: -119px 1px;
+    cursor: pointer;
+}
+
+.btn_connect{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: 1px -27px;
+    display: inline-block;
+}
+
+.btn_connect:hover, .btn_connect:focus{
+    background-position: 1px 1px;
+    cursor: pointer;
+}
+
+/* Middle Out */
+.sliding-middle-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #fff;
+}
+
+/* Middle Out2 */
+.sliding-middle-out2 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+.sliding-middle-out2:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out2:hover:after {
+    width: 100%;
+    background: #414042;
+}
+
+/* FOLLOW/FOLLOWING button */
+.btn_follow_on_white_bg{
+    margin-left: 20px;
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;
+    cursor: pointer;
+}
+.btn_follow_on_white_bg:hover, .btn_follow_on_white_bg:active, .btn_follow_on_white_bg_active{
+    color: #414042;
+}
+
+.btn_follow_on_blue_bg{
+    margin-left: 20px;
+    color: #A0A9FF;	font-family: "ProximaNova";	font-size: 12px; line-height: 16px;
+    cursor: pointer;
+}
+.btn_follow_on_blue_bg:hover, .btn_follow_on_blue_bg:active, .btn_follow_on_blue_bg_active{
+    color: #DFE2FF;
+}
+
+.btn_claim_company{
+    margin-left: 20px;
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;
+    cursor: pointer;
+}
+.btn_claim_company:hover{
+    color: #414042;
+}
+
+/* Label */
+.label1{
+    color: #414042;	font-family: "ProximaNova";	font-size: 17px;	font-weight: 600;	line-height: 22px;
+}
+.label2{
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;
+}
+.label3{
+    color: #414042;	font-family: "ProximaNova";	font-size: 16px;	line-height: 24px;
+}
+.label4{
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 16px;	font-weight: 600;	line-height: 26px;	text-align: center;
+}
+.label5{
+    color: #414042;	font-family: "ProximaNova";	font-size: 17px;	font-weight: 600;	line-height: 22px;	text-align: center;
+}
+.label6{
+    color: #414042;	font-family: "ProximaNova";	font-size: 32px;	font-weight: bold;	line-height: 30px;	text-align: center;
+    margin-top: 14px;
+}
+.label7{
+    color: #6170FF;	font-family: "ProximaNova";	font-size: 14px;	line-height: 19px;	text-align: center;
+}
+.label8{
+    color: #414042;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;	text-align: center;
+}
+.label9{
+    color: #414042;	font-family: "ProximaNova";	font-size: 28px;	font-weight: 300;	line-height: 32px;	text-align: center;
+}
+.label10{
+    color: #414042;	font-family: "UniNeueBook";	font-size: 48px;	font-weight: 300;	line-height: 48px;	text-align: center;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 767px) {
+
+}

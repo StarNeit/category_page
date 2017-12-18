@@ -1,0 +1,181 @@
+@font-face{
+	font-family: 'UniNeueBlack';
+	src: url('../fonts/Uni Neue/Uni Neue Black/Fontfabric - UniNeueBlack.otf');
+}
+
+@font-face{
+	font-family: 'UniNeueBook';
+	src: url('../fonts/Uni Neue/Uni Neue Book/Fontfabric - UniNeueBook.otf');
+}
+
+@font-face{
+	font-family: 'UniNeueLight';
+	src: url('../fonts/Uni Neue/Uni Neue Light/Fontfabric - UniNeueLight.otf');
+}
+
+@font-face{
+	font-family: 'UniNeueBold';
+	src: url('../fonts/Uni Neue/Uni Neue Bold/Fontfabric - UniNeueBold.otf');
+}
+
+@font-face{
+	font-family: 'UniNeueHeavy';
+	src: url('../fonts/Uni Neue/Uni Neue Heavy/Fontfabric - UniNeueHeavy.otf');
+}
+
+@font-face{
+	font-family: 'UniNeueRegular';
+	src: url('../fonts/Uni Neue/Uni Neue Regular/Fontfabric - UniNeueRegular.otf');
+}
+
+@font-face{
+	font-family: 'UniNeueThin';
+	src: url('../fonts/Uni Neue/Uni Neue Thin/Fontfabric - UniNeueThin.otf');
+}
+
+@font-face{
+	font-family: 'ProximaNova';
+	src: url('../fonts/Proxima Nova/Mark Simonson - Proxima Nova.otf');
+}
+
+@font-face{
+	font-family: 'ProximaNovaLight';
+	src: url('../fonts/Proxima Nova/Mark Simonson - Proxima Nova Light.otf');
+}
+
+@font-face{
+	font-family: 'ProximaNovaSemibold';
+	src: url('../fonts/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf');
+}
+
+@font-face{
+	font-family: 'ProximaNovaRegular';
+	src: url('../fonts/Proxima Nova/Mark Simonson - Proxima Nova.otf');
+}
+
+@font-face{
+	font-family: 'ProximaNovaBold';
+	src: url('../fonts/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf');
+}
+
+body{
+	font-size: 12px;
+}
+
+.container-fluid{
+	padding-left: 6em;
+	padding-right: 6em;
+}
+
+.navbar-default{
+	background-color: #fff;
+	margin-bottom: 0;
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+}
+
+.navbar-brand{
+	margin-right: 3.33em;
+	margin-top: -10px;
+}
+
+.logo1{
+	display: none !important;
+}
+
+.logo2{
+	display: block !important;
+	margin-top: -7px;
+}
+
+.navbar_search{
+	margin: 7px;
+	margin-left:0;
+    height: 34px;
+    width: 200px;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #f5f5f5;
+    border: 0;
+    padding-left:10px;
+	outline: 0 solid #f5f5f5 !important;
+	font-size: 13px;
+	font-family:'ProximaNovaRegular';
+}
+
+.navbar_search_icon{
+	height:34px;
+	background: #f5f5f5;
+	border: 0; 
+	margin-top:7px; 
+	margin-bottom:7px; 
+	text-align:center;
+	padding-top:8px;
+	padding-left: 15px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.navbar_search_icon i{
+	color: #A7A9AC;
+}
+
+.nav_menu{
+	padding-top:19px;
+}
+
+.header_btn_label{
+	height: 50px;
+	width: 177px;
+	border: 0;
+	background-color: #38D299;
+	box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.07);
+	-moz-box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.07);
+	-webkit-box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.07);
+	-o-box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.07);
+
+	color: #FFFFFF;	font-family: "ProximaNova";	font-size: 11px;	font-weight: bold;	letter-spacing: 2px;	line-height: 13px;	text-align: center;
+}
+
+.header_btn_label:hover{
+	background-color: #005239;
+}
+
+@media (max-width: 1150px){
+	.logo1{
+		display: block !important;
+	}
+	.logo2{
+		display: none !important;
+	}
+	.navbar-brand{
+		margin-right: 5px;
+	}
+	.container-fluid{
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+	}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 1024px){
+	.navbar_search{
+		width: 350px;
+	}
+}
+
+@media (min-width: 1150px) {
+  .navbar_search {
+    width: 20.83em;
+  }
+}
+
+@media (min-width: 1352px) {
+  .navbar_search {
+    width: 33.33em;
+  }
+}
