@@ -440,6 +440,10 @@ body{
     padding: 12px 35px;
 }
 
+.cmain_techs__intro__websites{
+    display: inline-block;
+}
+
 .cmain_techs__intro__md_title {
     height: 29px;
     max-width: 135px;
@@ -482,6 +486,7 @@ body{
 
 .cmain_techs__intro__details{
     margin-top: 45px;
+    padding-left: 0;
 }
 
 .cmain_techs__intro__details > li{
@@ -536,6 +541,16 @@ body{
     font-weight: 600;
     line-height: 16px;
     text-align: right;
+}
+
+.cmain_techs__intro__btn_all {
+    height: 21px;
+    width: 112px;
+    color: #6170FF;
+    font-family: "ProximaNovaRegular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
 }
 
 @media (max-width: 1300px) {
