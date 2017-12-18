@@ -51,6 +51,16 @@ $(document).ready(function(){
             $(this).text("FOLLOWING");
         }
     });
+
+
+
+//    New Category Page
+    $(".categories__content__menu__item").on("click", function(){
+        $(".categories__content__menu__item").removeClass("categories__content__menu__item-active");
+        $(this).addClass("categories__content__menu__item-active");
+    });
+
+
 });
 
 var lastScrollTop = 0;

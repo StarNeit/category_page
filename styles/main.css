@@ -249,6 +249,148 @@ body{
     color: #414042;	font-family: "UniNeueBook";	font-size: 48px;	font-weight: 300;	line-height: 48px;	text-align: center;
 }
 
+
+/* New Category Page */
+.blank{
+    height: 1000px;
+    width: 100%;
+    background: #00aeef;
+}
+
+.category_page .header{
+    background: #fff;
+}
+
+.header__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__content-left{
+    padding-top: 8px;
+    padding-bottom: 42px;
+}
+
+.header__content__lg_title {
+    color: #414042;
+    font-family: "UniNeueBold";
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+
+    margin-top: 30px;
+}
+
+.header__content__sm_title {
+    max-width: 816px;
+    width: 100%;
+    color: #414042;
+    font-family: "ProximaNovaRegular";
+    font-size: 14px;
+    line-height: 21px;
+
+    margin-top: 16px;
+}
+
+.header__content__follow_c {
+    color: #6170FF;
+    font-family: "ProximaNovaRegular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+
+    margin-top: 16px;
+}
+
+.header__content__follow_c:hover{
+    cursor: pointer;
+}
+
+.header__content-right{
+    padding-top: 8px;
+    padding-bottom: 42px;
+}
+
+.header__content__xs_title {
+    color: #7F8FA4;
+    font-family: "ProximaNovaRegular";
+    font-size: 12px;
+    line-height: 16px;
+
+    margin-top: 18px;
+}
+
+.header__content__md_title {
+    color: #414042;
+    font-family: "ProximaNovaSemibold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+
+    margin-top: 1px;
+}
+
+.categories{
+    background: rgba(216, 216, 216, 0.22);
+    width: 100%;
+    padding-bottom: 219px;
+}
+
+.categories__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categories__content__menu{
+    height: 53px;
+    border-bottom: 1px solid #E6EAEE;
+}
+
+.categories__content__menu__item {
+    padding: 9px 60px;
+
+    color: #A7A9AC;
+    font-family: "ProximaNovaSemibold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+
+    display: inline-block;
+}
+
+.categories__content__menu__item:hover{
+    cursor: pointer;
+}
+
+.categories__content__menu__item-active{
+    background: #fff;
+    border-top: 3px solid #6170FF;
+    border-left: 1px solid #E6EAEE;
+    border-right: 1px solid #E6EAEE;
+    color: #414042;
+}
+
+.categories__content__main{
+    width: 100%;
+    height: 1000px;
+    background: #fff;
+    border-bottom: 1px solid #E6EAEE;
+    border-left: 1px solid #E6EAEE;
+    border-right: 1px solid #E6EAEE;
+}
+
+.categories__content__main__techs{
+    display: block;
+}
+
+.categories__content__main__news{
+    display: none;
+}
+
 @media (max-width: 1300px) {
 
 }
