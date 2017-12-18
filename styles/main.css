@@ -551,6 +551,49 @@ body{
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
+    cursor: pointer;
+}
+
+.cmain_techs__intro__techuse {
+    height: 14px;
+    width: 91px;
+    color: #7F8FA4;
+    font-family: "ProximaNovaRegular";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+
+    padding-top: 12px;
+}
+
+.cmain_techs__intro__techuse-value{
+    text-align: right;
+}
+
+.cmain_techs__intro__techuse-value > div {
+    height: 29px;
+    width: 83px;
+    color: #354052;
+    font-family: "ProximaNovaRegular";
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+}
+
+.cmain_techs__intro__techuse-value > span {
+    display: inline-block;
+    height: 17px;
+    width: 26px;
+    color: #38D299;
+    font-family: "ProximaNovaRegular";
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+}
+
+.cmain_techs__intro__techuse__chart{
+    margin-top: 20px;
+    width: 100%;
 }
 
 @media (max-width: 1300px) {

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="270px" height="96px" viewBox="0 0 270 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3A4399" offset="0%"></stop>
+            <stop stop-color="#3A4399" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tech-Use-Growth" transform="translate(0.000000, 1.000000)">
+            <g id="Values" transform="translate(0.000000, 68.000000)">
+                <rect id="Graph-Lines" fill="#E6EAEE" x="0" y="0" width="270" height="1"></rect>
+                <g id="Months" transform="translate(30.000000, 13.000000)" fill="#354052" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" opacity="0.504256063">
+                    <text id="JAN">
+                        <tspan x="0.61" y="11">JAN</tspan>
+                    </text>
+                    <text id="FEB">
+                        <tspan x="46.012" y="11">FEB</tspan>
+                    </text>
+                    <text id="MAR">
+                        <tspan x="90.05" y="11">MAR</tspan>
+                    </text>
+                    <text id="APR">
+                        <tspan x="139.382" y="11">APR</tspan>
+                    </text>
+                    <text id="MAY">
+                        <tspan x="185.32" y="11">MAY</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Graph">
+                <polyline id="Line" stroke="#3A4399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="1 47 46 31 90 48 135 43 180 23 227 11 269 0"></polyline>
+                <polygon id="Line" fill-opacity="0.5" fill="url(#linearGradient-1)" points="2.86338117e-14 47 45.3358209 31 89.6641791 48 135 43 180.335821 23 226.679104 10 270 0 270 63 0 63"></polygon>
+                <g id="Points" transform="translate(42.000000, 8.000000)" fill="#FFFFFF" stroke="#3A4399" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <circle id="Point" cx="3.5" cy="23.5" r="3.5"></circle>
+                    <circle id="Point" cx="48.5" cy="39.5" r="3.5"></circle>
+                    <circle id="Point" cx="93.5" cy="34.5" r="3.5"></circle>
+                    <circle id="Point" cx="137.5" cy="15.5" r="3.5"></circle>
+                    <circle id="Point" cx="184.5" cy="3.5" r="3.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
