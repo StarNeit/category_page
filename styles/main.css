@@ -381,6 +381,8 @@ body{
     border-left: 1px solid #E6EAEE;
     border-right: 1px solid #E6EAEE;
     padding-bottom: 30px;
+
+    min-height: 1000px;
 }
 
 .categories__content__main__techs{
