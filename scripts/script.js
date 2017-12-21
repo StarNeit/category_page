@@ -58,10 +58,18 @@ $(document).ready(function(){
     $(".categories__content__menu__item").on("click", function(){
         $(".categories__content__menu__item").removeClass("categories__content__menu__item-active");
         $(this).addClass("categories__content__menu__item-active");
-
-        $(".categories__content__main__techs").toggle();
-        $(".categories__content__main__news").toggle();
     });
+
+    $("#menu_techuse").on("click", function(){
+        $(".categories__content__main__techs").show();
+        $(".categories__content__main__news").hide();
+    });
+
+    $("#menu_categorynews").on("click", function(){
+        $(".categories__content__main__techs").hide();
+        $(".categories__content__main__news").show();
+    });
+
 
     $(".cmain_techs__sidemenu__item").on("click", function () {
         $(".cmain_techs__sidemenu__item").removeClass("cmain_techs__sidemenu__item-active");
