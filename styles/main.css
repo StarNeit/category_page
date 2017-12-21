@@ -294,7 +294,7 @@ body{
     margin-top: 16px;
 }
 
-.header__content__follow_c {
+.header__content__follow_c, .header__content__follow_c__mobile {
     color: #6170FF;
     font-family: "ProximaNovaRegular";
     font-size: 14px;
@@ -302,10 +302,15 @@ body{
     line-height: 21px;
 
     margin-top: 16px;
+    cursor: pointer;
 }
 
-.header__content__follow_c:hover{
-    cursor: pointer;
+.header__content__follow_c__mobile{
+    display: none;
+}
+
+.header__content__follow_c{
+    display: block;
 }
 
 .header__content-right{
@@ -351,7 +356,7 @@ body{
 }
 
 .categories__content__menu__item {
-    padding: 9px 60px;
+    padding: 12px 60px 6px;
 
     color: #A7A9AC;
     font-family: "ProximaNovaSemibold";
@@ -372,6 +377,7 @@ body{
     border-left: 1px solid #E6EAEE;
     border-right: 1px solid #E6EAEE;
     color: #414042;
+    padding: 10px 60px 8px;
 }
 
 .categories__content__main{
@@ -387,6 +393,10 @@ body{
     display: block;
 }
 
+.categories__content__main__techs > div{
+    display: flex;
+}
+
 .categories__content__main__news{
     display: none;
 }
@@ -395,7 +405,7 @@ body{
     padding-top: 26px;
     padding-left: 47px;
     padding-right: 19px;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .cmain_techs__content{
@@ -413,13 +423,26 @@ body{
     padding-left: 13px;
 }
 
+.sidemenu__content{
+    display: block;
+}
+
+.sidemenu__content__mobile{
+    display: none;
+}
+
+.sidemenu__content__mobile > select{
+    height: 40px;
+    margin-top: 5px;
+}
+
 .cmain_techs__sidemenu__item {
     font-family: "ProximaNovaSemibold";
     font-size: 16px;
     font-weight: 600;
     line-height: 32px;
     color: #354052;
-    margin-top: 12px;
+    margin-top: 5px;
     cursor: pointer;
 
     padding-left: 13px;
@@ -484,6 +507,10 @@ body{
     text-align: center;
 }
 
+.cmain_techs__intro__box{
+    text-align: left;
+}
+
 .cmain_techs__intro__details{
     margin-top: 45px;
     padding-left: 0;
@@ -545,7 +572,6 @@ body{
 
 .cmain_techs__intro__btn_all {
     height: 21px;
-    width: 112px;
     color: #6170FF;
     font-family: "ProximaNovaRegular";
     font-size: 14px;
@@ -555,8 +581,7 @@ body{
 }
 
 .cmain_techs__intro__techuse {
-    height: 14px;
-    width: 91px;
+    height: 0px;
     color: #7F8FA4;
     font-family: "ProximaNovaRegular";
     font-size: 12px;
@@ -572,7 +597,6 @@ body{
 
 .cmain_techs__intro__techuse-value > div {
     height: 29px;
-    width: 83px;
     color: #354052;
     font-family: "ProximaNovaRegular";
     font-size: 24px;
@@ -583,7 +607,6 @@ body{
 .cmain_techs__intro__techuse-value > span {
     display: inline-block;
     height: 17px;
-    width: 26px;
     color: #38D299;
     font-family: "ProximaNovaRegular";
     font-size: 14px;
@@ -598,6 +621,7 @@ body{
 
 .cmain_techs_table{
     margin-top: 4px;
+    display: block;
 }
 
 .cmain_techs_table__header{
@@ -619,14 +643,67 @@ body{
     line-height: 14px;
 
     text-align: center;
+    cursor: pointer;
 }
 
 .cmain_techs_table__contents__item{
-    height: 86.5px;
+    min-height: 86.5px;
     border-bottom: 1px solid #E6EAEE;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cmain_techs_table__mobile{
+    display: none;
+    margin-top: 20px;
+}
+
+.cmain_techs_table__mobile__item{
+    border-bottom: 1px solid #E6EAEE;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cmain_techs_table__mobile__item > .row{
+    padding-left: 56px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.mobile__contents__item__title{
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.mobile__contents__item__sm{
+    color: #7F8FA4;
+    font-family: "ProximaNovaRegular";
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.mobile__contents__item__md{
+    color: #354052;
+    font-family: "ProximaNovaSemibold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: right;
+}
+
+.mobile__contents__item__xs{
+    text-align: right;
+}
+
+.mobile__contents__item__xs > div{
+    display: inline-flex; align-items: center; text-align: right;
+}
+
+.item-lastrow{
+    border-bottom: 0;
 }
 
 .contents__item__title{
@@ -730,14 +807,123 @@ body{
     opacity: 0.45;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
+    .header__content{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .categories__content__menu{
+        margin-left: 20px;
+    }
+}
 
+@media (max-width: 1024px){
+    .category_page .header{
+        margin-top: 60px; /* 80px in server */
+    }
 }
 
 @media (max-width: 992px) {
+    .header__content-left{
+        padding-bottom: 0;
+    }
+
+    .header__content__follow_c{
+        display: none;
+    }
+
+    .header__content__follow_c__mobile{
+        display: block;
+    }
 
 }
 
 @media (max-width: 767px) {
+    .categories__content__menu__item{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
+
+    .cmain_techs__sidemenu{
+        /*display: none;*/
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cmain_techs__intro__md_title, .cmain_techs__intro__circlenum{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cmain_techs__intro__md_title{
+        margin-top: 50px;
+    }
+
+    .cmain_techs__intro__box{
+        text-align: center;
+    }
+
+    .cmain_techs__intro__details{
+        margin-top: 0;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .cmain_techs_table{
+        display: none;
+    }
+
+    .cmain_techs_table__mobile{
+        display: block;
+    }
+
+    .cmain_techs__intro__techuse{
+        height: inherit;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .cmain_techs__intro__techuse-value{
+        float: none !important;
+        text-align: center;
+    }
+
+    .cmain_techs__intro__techuse-value > div{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .cmain_techs__intro__techuse-value > span{
+        margin-top: 8px;
+    }
+
+    .cmain_techs__intro__btn_all{
+        text-align: center;
+    }
+
+    .categories__content__main__techs > div{
+        display: block;
+    }
+
+
+    .sidemenu__content{
+        display: none;
+    }
+
+    .sidemenu__content__mobile{
+        display: block;
+    }
+
+    .cmain_techs__sm_title{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .categories__content__menu__item{
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
