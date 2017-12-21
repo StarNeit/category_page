@@ -928,6 +928,7 @@ body{
 
 .news_item__content{
     padding-left: 20px;
+    flex: 1;
 }
 
 .cat_content__md_title2 {
