@@ -76,6 +76,19 @@ $(document).ready(function(){
         $(this).addClass("cmain_techs__sidemenu__item-active");
     });
 
+
+
+    $(".header__content__follow_c, .header__content__follow_c__mobile").on("click", function(){
+        var self = $(this).text().trim();
+        if (self == "Follow Category"){
+            $(".header__content__follow_c").text("Following Category");
+            $(".header__content__follow_c__mobile").text("Following Category");
+        }
+        else{
+            $(".header__content__follow_c").text("Follow Category");
+            $(".header__content__follow_c__mobile").text("Follow Category");
+        }
+    });
 });
 
 var lastScrollTop = 0;
