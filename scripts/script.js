@@ -89,6 +89,24 @@ $(document).ready(function(){
             $(".header__content__follow_c__mobile").text("Follow Category");
         }
     });
+
+    $(".cat_sidemenu__md_title2").on("click", function(){
+        $(".cat_sidemenu input[type='checkbox']").prop("checked", false);
+    });
+
+    $(".cat_sidemenu__public_header3 input[type='checkbox']").on("click", function(){
+        var len = $(".cat_sidemenu__public_header3 input[type='checkbox']:checked").length;
+        if (len == 44){
+            $(".cat_sidemenu__public_header2 input[type='checkbox']").prop("checked", true);
+        }else{
+            $(".cat_sidemenu__public_header2 input[type='checkbox']").prop("checked", false);
+        }
+    });
+
+    $(".cat_sidemenu__public_header2 input[type='checkbox']").on("click", function() {
+        if ($(".cat_sidemenu__public_header2 input[type='checkbox']:checked"))
+            $(".cat_sidemenu__public_header3 input[type='checkbox']").prop("checked", true);
+    });
 });
 
 var lastScrollTop = 0;

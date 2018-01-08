@@ -738,6 +738,7 @@ body{
 .cmain_techs_table__row{
     display: flex;
     display: -webkit-flex;
+    cursor: pointer;
 }
 
 .color_green {
@@ -811,18 +812,36 @@ body{
 
 /* Category Tab */
 .cat_sidemenu{
-    padding: 25px 37px;
+    padding: 25px 0px 25px 37px;
+}
+
+@media (max-width: 768px) {
+    .cat_sidemenu {
+        padding-right: 20px;
+    }
 }
 
 .cat_sidemenu input[type="checkbox"]{
-    margin-right: 6px;
+    /*margin-right: 13px;*/
 }
 
 .cat_sidemenu label {
     color: #414042;
-    font-family: "ProximaNovaRegular";
+    font-family: 'ProximaNovaRegular';
     font-size: 13px;
+    text-align: left;
+    letter-spacing: 0.5px;
     line-height: 24px;
+    font-weight: 400;
+
+    display: flex;
+    display: -webkit-flex;
+
+    cursor: pointer;
+}
+
+.cat_sidemenu label > div {
+    padding-left: 12px;
 }
 
 .cat_sidemenu__md_title {
@@ -848,7 +867,14 @@ body{
     background-color: #FFFFFF;
     box-shadow: inset 0 -2px 0 0 #F5F5F5;
     height: 45px;
-    margin-top: 10px;
+}
+
+.pub_sidemenu__select{
+    display: none;
+}
+
+.cat_sidemenu__select option:hover{
+    background: #3A4399 !important;
 }
 
 .cat_sidemenu__margin1{
@@ -867,14 +893,31 @@ body{
     border-bottom: 1px solid #E6E7E8;
 }
 
+.public_opt__container{
+    height: 360px;
+    overflow-y: auto;
+}
+
 .cat_sidemenu__public_header3{
     padding-top: 13px;
     padding-left: 5px;
-
+    padding-right: 20px;
 }
 
 .cat_content{
     padding: 30px 25px 50px;
+}
+
+.cat_content__news_item3{
+    border-bottom: 1px solid #E6E7E8;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.cat_content__news_item3 img{
+    max-width: 354px;
+    width: 100%;
 }
 
 .cat_content__md_title {
@@ -924,6 +967,17 @@ body{
     margin-top: 25px;
     border-bottom: 1px solid #E6E7E8;
     min-height: 126px;
+    cursor: pointer;
+}
+
+.cat_content__news_item:hover .cat_content__md_title2{
+    color: #6170FF;
+}
+.cat_content__news_item2:hover .cat_content__md_title2{
+    color: #6170FF;
+}
+.cat_content__news_item3:hover .cat_content__lg_title{
+    color: #6170FF;
 }
 
 .news_item__content{
@@ -945,6 +999,8 @@ body{
     min-height: 126px;
     padding-left: 20px;
     padding-top: 30px;
+    border-bottom: 1px solid #E6E7E8;
+    cursor: pointer;
 }
 
 .butn_load_more {
@@ -1081,6 +1137,19 @@ body{
     /*new category tab*/
     .cat_content__news_item img{
         display: none;
+    }
+
+    .public_opt__container{
+        display: none;
+    }
+    .cat_sidemenu__public_header2{
+        display: none;
+    }
+    .cat_sidemenu__public_header{
+        border-bottom: 0;
+    }
+    .pub_sidemenu__select{
+        display: block;
     }
 }
 
