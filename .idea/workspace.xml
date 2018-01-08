@@ -18,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="190" column="52" lean-forward="false" selection-start-line="190" selection-start-column="52" selection-end-line="192" selection-end-column="58" />
+            <state relative-caret-position="301">
+              <caret line="189" column="65" lean-forward="true" selection-start-line="189" selection-start-column="65" selection-end-line="189" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,7 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=&quot;&quot;</find>
       <find>.cat_sidemenu input[type=&quot;checkbox&quot;]</find>
       <find>&lt;br&gt;</find>
       <find>check</find>
@@ -106,6 +105,7 @@
       <find>img</find>
       <find>consum</find>
       <find>211</find>
+      <find>donut</find>
     </findStrings>
     <replaceStrings>
       <replace>arrow-up arrow-up__green</replace>
@@ -313,12 +313,12 @@
       <workItem from="1513794151689" duration="8492000" />
       <workItem from="1513841026347" duration="15175000" />
       <workItem from="1515263282583" duration="1204000" />
-      <workItem from="1515400224457" duration="11309000" />
+      <workItem from="1515400224457" duration="11923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50401000" />
+    <option name="totallyTimeSpent" value="51015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1013" extended-state="6" />
@@ -601,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="190" column="52" lean-forward="false" selection-start-line="190" selection-start-column="52" selection-end-line="192" selection-end-column="58" />
+        <state relative-caret-position="301">
+          <caret line="189" column="65" lean-forward="true" selection-start-line="189" selection-start-column="65" selection-end-line="189" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />

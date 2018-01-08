@@ -188,7 +188,7 @@
 															<!--<span>Websites</span>-->
 														<!--</div>-->
 													<!--</div>-->
-													<div style="width: 200px; height: 200px;">
+													<div style="max-width: 150px; width: 100%; margin-left: auto; margin-right: auto;">
 														<canvas id="donut" width="400" height="400"></canvas>
 													</div>
 												<!--</div>-->
@@ -1010,19 +1010,27 @@
             data: {
                 datasets: [{
                     data: [
-                        300,
-                        50,
-                        100
+                        52,
+                        15,
+                        12,
+						11,
+						10
                     ],
                     backgroundColor: [
-                        "#F7464A",
-                        "#46BFBD",
-                        "#FDB45C"
+                        "#010D81",
+                        "#4954BC",
+                        "#5464FB",
+                        "#7C89FE",
+                        "#A6AEFB"
                     ],
+                    label:{
+
+					}
                 }]
             },
             options: {
-                responsive: true
+                responsive: true,
+                cutoutPercentage: 70
             }
         };
         new Chart(donutEl, config);
