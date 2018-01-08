@@ -1021,6 +1021,18 @@ body{
     outline: none;
 }
 
+.line-chart {
+    animation: fadeIn 600ms cubic-bezier(0.57, 0.25, 0.65, 1) 1 forwards;
+    /*opacity: 0;*/
+    max-width: 700px;
+    width: 100%;
+}
+
+.aspect-ratio {
+    height: 0;
+    padding-bottom: 50%;
+}
+
 @media (max-width: 1200px) {
     .header__content{
         padding-left: 25px;
