@@ -477,36 +477,6 @@ body{
     line-height: 29px;
 }
 
-.cmain_techs__intro__circlenum {
-    width: 129px;
-    height: 129px;
-    background: url("../images/img_circle.svg");
-    background-size: 100% 100%;
-
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
-
-    color: #354052;
-    font-family: "ProximaNovaRegular";
-    font-size: 24px;
-    line-height: 29px;
-
-    padding-top: 10px;
-    margin-top: 25px;
-    margin-bottom: 31px;
-}
-
-.cmain_techs__intro__circlenum span {
-    display: block;
-    color: #414042;
-    font-family: "ProximaNovaRegular";
-    font-size: 9.6px;
-    line-height: 12px;
-    text-align: center;
-}
-
 .cmain_techs__intro__box{
     text-align: left;
 }
@@ -1033,6 +1003,34 @@ body{
     padding-bottom: 50%;
 }
 
+.donut_chart {
+    max-width: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.donut_chart__title{
+    font-family: 'ProximaNovaRegular';
+    color: #354052;
+    font-size: 24px;
+    line-height: 15px;
+
+    position: absolute;
+    top: 48%;
+    left: 24%;
+}
+
+.donut_chart__title > span{
+    font-family: 'ProximaNovaRegular';
+    color: #414042;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    line-height: 13px;
+}
+
+
 @media (max-width: 1200px) {
     .header__content{
         padding-left: 25px;
@@ -1077,7 +1075,7 @@ body{
         padding-right: 20px;
     }
 
-    .cmain_techs__intro__md_title, .cmain_techs__intro__circlenum{
+    .cmain_techs__intro__md_title{
         margin-left: auto;
         margin-right: auto;
     }
