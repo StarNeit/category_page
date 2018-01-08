@@ -182,11 +182,14 @@
 													<div class="cmain_techs__intro__md_title">
 														All Industries
 													</div>
-													<div class="cmain_techs__intro__circlenum">
-														<div style="display: block;">
-															<div>211,298</div>
-															<span>Websites</span>
-														</div>
+													<!--<div class="cmain_techs__intro__circlenum">-->
+														<!--<div style="display: block;">-->
+															<!--<div>211,298</div>-->
+															<!--<span>Websites</span>-->
+														<!--</div>-->
+													<!--</div>-->
+													<div style="width: 200px; height: 200px;">
+														<canvas id="donut" width="400" height="400"></canvas>
 													</div>
 												<!--</div>-->
 											</div>
@@ -998,5 +1001,32 @@
 	<script src="../scripts/auto_header.js"></script>
 	<script src="../scripts/script.js"></script>
 	<script src="../scripts/line-chart.js"></script>
+
+
+	<script>
+        var donutEl = document.getElementById("donut").getContext("2d");
+        var config = {
+            type: 'doughnut',
+            data: {
+                datasets: [{
+                    data: [
+                        300,
+                        50,
+                        100
+                    ],
+                    backgroundColor: [
+                        "#F7464A",
+                        "#46BFBD",
+                        "#FDB45C"
+                    ],
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        };
+        new Chart(donutEl, config);
+
+	</script>
 </body>
 </html>
