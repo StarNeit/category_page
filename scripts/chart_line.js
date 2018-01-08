@@ -46,8 +46,8 @@ new Chart('chart-2', {
     data: {
         labels: generateLabels(),
         datasets: [{
-            backgroundColor: utils.transparentize(presets.blue),
-            borderColor: presets.blue,
+            backgroundColor: utils.transparentize(presets.main),
+            borderColor: presets.main,
             data: generateData(),
             label: 'Dataset',
             fill: boundary
@@ -56,7 +56,7 @@ new Chart('chart-2', {
     options: Chart.helpers.merge(options, {
         title: {
             text: 'fill: ' + boundary,
-            display: true
+            display: false
         }
     })
 });
